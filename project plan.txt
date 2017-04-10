@@ -1,0 +1,65 @@
+When I go to Animal shelter....
+
+As a user I want to see a main menu so that I know what options are available to me.
+As a user I want to select a main menu option numerically so that I can choose a feature of the app to use.
+
+Menu Prompt:
+
+As a User I want:
+
+	x - I see a main menu
+	x - Shows a list of valid options (add, edit, list, delete, quit)
+	- I can make a valid choice
+		- 1 to 6
+	- I can make an invalid options
+		- any strings
+		- out of range ints
+		- any non-int number
+		- when this happens, then user is re-prompted
+
+As a programmer I want:
+	- I want to know what the user wants.
+
+Nouns:
+	Menu
+		provideOptions
+
+
+
+
+
+- Shows a list of animals
+	- I see a header
+	- If there are animals, I see list that includes index, animal name and species
+	- If no animals, I see a message saying no animals available.
+
+
+- When I create an animal:
+	- I am asked for breed
+	- I am asked for species
+	- I am asked for description
+	- I am asked for name
+	- An animal is created
+	- I see requirements about what is required
+	- I see a header
+	- I see some descriptive text
+	- If an animal isn't given an name or species or description then the user sees an error saying the field is required
+	- If a user gets an error they are re-prompted
+	- If done successfully, success message is shown
+
+
+
+
+
+
+
+
+
+
+
+
+- Create animal
+- Edit animal
+- Delete animal
+- List of animals
+- View details of animal
